@@ -4,7 +4,7 @@ Seuraavassa koodissa esimerkkä taulukoista, listoista ja niiden läpikäymisest
 using System;
 using System.Collections.Generic;
 
-namespace listat_ja_taulukot
+namespace listatJaTaulukot
 {
     class Program
     {
