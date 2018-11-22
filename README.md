@@ -1,26 +1,11 @@
 # Csharp-esimerkkeja
+Seuraavassa koodissa esimerkkä taulukoista, listoista ja niiden läpikäymisestä foreach ja for-rakenteilla
 ```csharp
 using System;
 using System.Collections.Generic;
 
-namespace tekstinLukuJakirjoitus
+namespace listaEsim
 {
-    class Henkilo
-    {
-        public string nimi;
-        public string ika;
-        public string harrastukset;
-        public void tulostaTyyppi()
-        {
-            Console.WriteLine("Nimi:" + nimi + " ikä:" + ika + " harrastukset:" + harrastukset);
-        }
-        public Henkilo(string n = "", string i = "", string h = "")
-        {
-            nimi = n;
-            ika = i;
-            harrastukset = h;
-        }
-    }
     class Program
     {
         static void Main(string[] args)
